@@ -1,0 +1,90 @@
+*, html {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100vw;
+    height: 100%;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #37474F;
+    padding: 10px;
+    text-align: center;
+}
+
+.ul-navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.li-navbar {
+    margin: 0 15px;
+}
+
+.a-navbar {
+    text-decoration: none;
+    color: #A7FFEB;
+    font-size: 15px;
+}
+
+.a-navbar:hover {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+/* Content */
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #116466;
+    min-height: calc(100vh - 120px); /* Mengurangi tinggi navbar dan footer */
+}
+
+.row {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-content {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.li-icon {
+    list-style-type: none;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #37474F;
+    color: #A7FFEB; 
+    text-align: center;
+    padding: 10px;
+}
